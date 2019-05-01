@@ -52,7 +52,7 @@ ng serve --o
 ```
 to automatically open your browser at port 4200
 
-### 3. Open the application
+#### 3. Open the application
 Opens your browser at port 4200 and you should see the app's login page.
 
 ## Built With
@@ -66,7 +66,3 @@ Opens your browser at port 4200 and you should see the app's login page.
 * **Luiz Sandoval** - *front-end developer* - [Luiz Sandoval](https://github.com/Lgustavo2016)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
