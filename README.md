@@ -1,27 +1,72 @@
-# Hackapp
+# Hackathon App Frontend
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.6.
+This application was made as a project for the 1st local Fatec's hackathon.
 
-## Development server
+## Getting Started
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-## Code scaffolding
+### Prerequisites
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Make sure you have the following packages installed globally before you start installing this application:
 
-## Build
+#### Angular 
+ Angular is the main framework used in this application, you will need it to run the app at dev environment:
+ 
+```
+npm install -g @angular/cli
+```
+or
+```
+yarn global add @angular/cli
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+### Installing
 
-## Running unit tests
+Follow the steps to get the app installed on your environment:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+#### 1. Install dependencies
 
-## Running end-to-end tests
+Install the project dependencies by running either
+```
+npm install
+```
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+or
 
-## Further help
+```
+yarn install
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+#### 2. Serve the application
+
+Serves the application by running either
+```
+ng serve
+```
+
+or
+
+```
+ng serve --o
+```
+to automatically open your browser at port 4200
+
+### 3. Open the application
+Opens your browser at port 4200 and you should see the app's login page.
+
+## Built With
+
+* [Angular](https://angular.io/) - The web front-end framework used
+* [Angular Material](https://material.angular.io/) - The UI library used for developing the app's interface
+* [Bootstrap 4](https://getbootstrap.com/docs/4.0/getting-started/introduction/) - The CSS framework used to support the development of the app's interface 
+
+## Authors
+
+* **Luiz Sandoval** - *front-end developer* - [Luiz Sandoval](https://github.com/Lgustavo2016)
+
+See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
